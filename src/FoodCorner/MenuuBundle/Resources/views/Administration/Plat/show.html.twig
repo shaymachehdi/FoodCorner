@@ -1,0 +1,35 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block show_plat %}
+    <br><br>
+    <h4>Détail plat :</h4> <br><br>
+    <center>
+        <tbody>
+        <td class="col-md-4 md-margin-bottom-40">
+            <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="300" HEIGHT="300">
+                <TR>
+                    <TD><img class="img-responsive" src="{{ asset ('uploads/images/'~ plat.image) }}"
+                             style="float:left" alt=""></TD>
+                </TR>
+            </TABLE>
+            <br><br>
+            <li class="list-group-item"><h5>Nom : {{ plat.name }}</h5></li>
+            <br><br>
+            <li class="list-group-item"><h5>Description : <br> <br>{{ plat.description }}</h5></li>
+            <br><br>
+            <li class="list-group-item"><h5>Type : {{ plat.type }} </h5>
+                <br>
+            <li class="list-group-item"><h5>Prix : {{ plat.prix }} £ </h5>
+                <br>
+            <li class="list-group-item"><h5>Quantité : {{ plat.qte }} </h5>
+        </tbody>
+        </table><br></center><br><br>
+    <ul class="record_actions">
+        <a class="btn" href="{{ path('plat_edit', { 'id': plat.id }) }}">
+            Modifier
+        </a> &nbsp;&nbsp;
+        <a class="btn" href="{{ path('foodcorner_menuu_plat_remove', { 'id': plat.id }) }}">
+            Supprimer
+        </a>
+    </ul>
+
+{% endblock %}

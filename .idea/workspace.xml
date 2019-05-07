@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="062fe10e-da4f-4c8e-bd04-b4d356546133" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Administration/commande/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Administration/commande/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/vue1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/vue2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/vue3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/vue4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/a_propos.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/dashboard.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/editUser.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/menu.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/CategorieMenu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Commande.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Facture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Offre.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Reservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/AdminRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/CategorieMenuRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/CommandeRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/FactureRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/MenuRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/OffreRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/ReservationRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Security/admin_home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Security/admin_home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/modulesUsed/utilisateursConnecte.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/modulesUsed/utilisateursConnecte.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2120166894">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="115" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="15" />
+          <entry key="project.open.time.11" value="9" />
+          <entry key="project.open.time.12" value="11" />
+          <entry key="project.open.time.13" value="6" />
+          <entry key="project.open.time.14" value="6" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.166" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.171" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.44" value="3" />
+          <entry key="project.open.time.45" value="2" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.51" value="2" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.54" value="2" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.8" value="9" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.9" value="9" />
+          <entry key="project.opened" value="118" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="RegistrationFormType" value="1" />
+          <entry key="connecter" value="1" />
+          <entry key="css" value="10" />
+          <entry key="ent" value="1" />
+          <entry key="html" value="1" />
+          <entry key="jpeg" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="2" />
+          <entry key="json" value="1" />
+          <entry key="liste_clients" value="1" />
+          <entry key="liste_commandes" value="1" />
+          <entry key="listes_reservations" value="1" />
+          <entry key="md" value="3" />
+          <entry key="php" value="439" />
+          <entry key="presentaion" value="1" />
+          <entry key="rnc" value="3" />
+          <entry key="show" value="1" />
+          <entry key="twgi" value="1" />
+          <entry key="twig" value="888" />
+          <entry key="yml" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="10" />
+          <entry key="DTD" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="3" />
+          <entry key="PHP" value="439" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="RNG Compact" value="3" />
+          <entry key="Twig" value="890" />
+          <entry key="YAML" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="44" />
+          <entry key="dummy" value="1" />
+          <entry key="php" value="9754" />
+          <entry key="twig" value="20355" />
+          <entry key="yml" value="895" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="44" />
+          <entry key="PHP" value="9754" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Twig" value="20355" />
+          <entry key="YAML" value="895" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.composer.actions">
+        <counts>
+          <entry key="clear-cache_from_MainMenu" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.rename.constructor" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FoodCorner" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Plat/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" selection-start-line="6" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#12#46#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Controller/MenuController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="134" column="30" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+              <folding>
+                <element signature="e#53#92#0#PHP" expanded="true" />
+                <element signature="e#3254#3308#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Plat/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="e#12#46#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fos_user_registration_form</find>
+      <find>widgets</find>
+      <find>form_div_l</find>
+      <find>form_d</find>
+      <find>form_div</find>
+      <find>form_div_layout.htm</find>
+      <find>pla</find>
+      <find>img</find>
+      <find>rounded</find>
+      <find>i</find>
+      <find>pro</find>
+      <find>val</find>
+      <find>form</find>
+      <find>bien</find>
+      <find>fos</find>
+      <find>plat</find>
+      <find>img/</find>
+      <find>im</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\FoodCorner\vendor\friendsofsymfony</dir>
+      <dir>C:\xampp\htdocs\FoodCorner\vendor\symfony</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/User/Menu/m.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/User/Menu/Menu.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Offre/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Menu/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Form/OffreType.php" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Offre/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Plat/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Controller/OffreController.php" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/ReservationnBundle/Controller/ReservationController.php" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/ReservationnBundle/Resources/views/User/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Offre/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Entity/Offre.php" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Panier/choix.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Panier/panier_info.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Panier/panier.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Panier/choix_plat.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Entity/Commande.php" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Administration/commande/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Administration/commande/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Administration/User/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/ReservationnBundle/Resources/views/Administration/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/FormUser/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/FormUser/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Administration/User/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Controller/CommandeController.php" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Menu/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Controller/MenuController.php" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Controller/PlatController.php" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Plat/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/ContactBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Security/admin_home.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/ContactBundle/Controller/ContactController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Apropos/a_propos.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/ContactBundle/Resources/views/Contact/User/send.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/base_menu.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Security/user_home.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/User/Menu/menu_type.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/modifier_compte.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword_content.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Plat/index.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="width" value="1386" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="ChangePassword" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuuBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuuBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuuBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuuBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuuBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Administration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuuBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Administration" type="462c0819:PsiDirectoryNode" />
+              <item name="Plat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuuBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodCorner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FoodCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuuBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="reservation&#9;null&#9;null&#10;fos_user_registration_form&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FoodCorner\src\FoodCorner\ContactBundle\Resources\views" />
+      <recent name="C:\xampp\htdocs\FoodCorner\src\AppBundle\Controller" />
+      <recent name="C:\xampp\htdocs\FoodCorner\src\FoodCorner\ReservationnBundle\Resources\views\User" />
+      <recent name="C:\xampp\htdocs\FoodCorner\src\FoodCorner\CommandeBundle\Resources\views\FormUser" />
+      <recent name="C:\xampp\htdocs\FoodCorner\src\AppBundle\Form" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FoodCorner\src\AppBundle\Resources\views" />
+      <recent name="C:\xampp\htdocs\FoodCorner\src\FoodCorner\ContactBundle\Resources\views\Contact\User" />
+      <recent name="C:\xampp\htdocs\FoodCorner\src\AppBundle\Form" />
+      <recent name="C:\xampp\htdocs\FoodCorner\src\FoodCorner\MenuuBundle\Resources\views\User" />
+      <recent name="C:\xampp\htdocs\FoodCorner\web\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="062fe10e-da4f-4c8e-bd04-b4d356546133" name="Default Changelist" comment="" />
+      <created>1540988048546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540988048546</updated>
+      <workItem from="1540988051626" duration="718000" />
+      <workItem from="1540996005544" duration="1762000" />
+      <workItem from="1540997903551" duration="2079000" />
+      <workItem from="1541004014863" duration="1782000" />
+      <workItem from="1541005837481" duration="1793000" />
+      <workItem from="1541007670075" duration="2135000" />
+      <workItem from="1541012734804" duration="1557000" />
+      <workItem from="1541014520229" duration="1777000" />
+      <workItem from="1541016396787" duration="1729000" />
+      <workItem from="1541018176405" duration="1824000" />
+      <workItem from="1541020044298" duration="1776000" />
+      <workItem from="1541066015317" duration="595000" />
+      <workItem from="1541072071221" duration="1441000" />
+      <workItem from="1541094081332" duration="1722000" />
+      <workItem from="1541096881504" duration="1484000" />
+      <workItem from="1541099034714" duration="1003000" />
+      <workItem from="1541103774086" duration="1735000" />
+      <workItem from="1541105557711" duration="1772000" />
+      <workItem from="1541107406851" duration="1781000" />
+      <workItem from="1541109234512" duration="1780000" />
+      <workItem from="1541111146936" duration="1975000" />
+      <workItem from="1541113231069" duration="1182000" />
+      <workItem from="1541146909270" duration="1058000" />
+      <workItem from="1541148721265" duration="1348000" />
+      <workItem from="1541156304887" duration="1110000" />
+      <workItem from="1541158143389" duration="915000" />
+      <workItem from="1541159976283" duration="1951000" />
+      <workItem from="1541161956462" duration="1772000" />
+      <workItem from="1541165329842" duration="1493000" />
+      <workItem from="1541167266607" duration="1605000" />
+      <workItem from="1541169119274" duration="872000" />
+      <workItem from="1541176706747" duration="1434000" />
+      <workItem from="1541181046197" duration="1735000" />
+      <workItem from="1541182835638" duration="1946000" />
+      <workItem from="1541184848298" duration="1783000" />
+      <workItem from="1541186679482" duration="1785000" />
+      <workItem from="1541188497752" duration="723000" />
+      <workItem from="1541190408116" duration="603000" />
+      <workItem from="1541271817339" duration="1733000" />
+      <workItem from="1541278348974" duration="727000" />
+      <workItem from="1541502942689" duration="1707000" />
+      <workItem from="1541504715936" duration="506000" />
+      <workItem from="1541505376670" duration="384000" />
+      <workItem from="1541505792622" duration="1806000" />
+      <workItem from="1541507650222" duration="607000" />
+      <workItem from="1541530337943" duration="1735000" />
+      <workItem from="1541532110844" duration="1727000" />
+      <workItem from="1541533929716" duration="1163000" />
+      <workItem from="1541535722652" duration="1780000" />
+      <workItem from="1541537543703" duration="1914000" />
+      <workItem from="1541540764254" duration="1120000" />
+      <workItem from="1541543147605" duration="1197000" />
+      <workItem from="1541545042749" duration="1779000" />
+      <workItem from="1541546896696" duration="888000" />
+      <workItem from="1541551169772" duration="678000" />
+      <workItem from="1541619002300" duration="920000" />
+      <workItem from="1541620990574" duration="598000" />
+      <workItem from="1541623155054" duration="597000" />
+      <workItem from="1541624978413" duration="598000" />
+      <workItem from="1541626793565" duration="600000" />
+      <workItem from="1541630045427" duration="598000" />
+      <workItem from="1541631783566" duration="598000" />
+      <workItem from="1541635479736" duration="597000" />
+      <workItem from="1541637300483" duration="598000" />
+      <workItem from="1541639433047" duration="599000" />
+      <workItem from="1541641267498" duration="635000" />
+      <workItem from="1541677349275" duration="1668000" />
+      <workItem from="1541681839562" duration="1758000" />
+      <workItem from="1541683655531" duration="1796000" />
+      <workItem from="1541685498658" duration="1797000" />
+      <workItem from="1541687641383" duration="657000" />
+      <workItem from="1541689437116" duration="1840000" />
+      <workItem from="1541691568578" duration="1764000" />
+      <workItem from="1541759293051" duration="1677000" />
+      <workItem from="1541764179980" duration="1224000" />
+      <workItem from="1541767947298" duration="1749000" />
+      <workItem from="1541792325131" duration="1282000" />
+      <workItem from="1541794390907" duration="1073000" />
+      <workItem from="1541796166197" duration="1806000" />
+      <workItem from="1541798003017" duration="1787000" />
+      <workItem from="1541799827565" duration="1785000" />
+      <workItem from="1541801834300" duration="1110000" />
+      <workItem from="1541806706402" duration="1838000" />
+      <workItem from="1541808581611" duration="1778000" />
+      <workItem from="1541810397789" duration="1783000" />
+      <workItem from="1541812219266" duration="1780000" />
+      <workItem from="1541814035582" duration="648000" />
+      <workItem from="1541877237631" duration="1465000" />
+      <workItem from="1541878906049" duration="682000" />
+      <workItem from="1541880862833" duration="1783000" />
+      <workItem from="1541882692448" duration="1783000" />
+      <workItem from="1541884590078" duration="1780000" />
+      <workItem from="1541886598054" duration="1789000" />
+      <workItem from="1541888420679" duration="1107000" />
+      <workItem from="1542015127326" duration="1047000" />
+      <workItem from="1542022767156" duration="596000" />
+      <workItem from="1542025076651" duration="1600000" />
+      <workItem from="1542030118040" duration="1725000" />
+      <workItem from="1542031885393" duration="795000" />
+      <workItem from="1542034228174" duration="1192000" />
+      <workItem from="1542036560382" duration="1317000" />
+      <workItem from="1542216681347" duration="1717000" />
+      <workItem from="1542219617653" duration="780000" />
+      <workItem from="1542222540254" duration="118000" />
+      <workItem from="1542222688006" duration="1627000" />
+      <workItem from="1542224407601" duration="1753000" />
+      <workItem from="1542226564706" duration="1787000" />
+      <workItem from="1542228711721" duration="1782000" />
+      <workItem from="1542364705530" duration="81000" />
+      <workItem from="1542378889582" duration="2004000" />
+      <workItem from="1542452103212" duration="1779000" />
+      <workItem from="1542483514693" duration="673000" />
+      <workItem from="1542484220625" duration="2688000" />
+      <workItem from="1542521703889" duration="17522000" />
+      <workItem from="1542706205515" duration="20032000" />
+      <workItem from="1542805478360" duration="95788000" />
+      <workItem from="1543999366151" duration="208663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="495979000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-12" y="0" width="1386" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49744898" visible="true" weight="0.2760181" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.502551" side_tool="true" weight="0.25718608" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.59077156" visible="true" weight="0.091362126" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40922844" side_tool="true" weight="0.05728314" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.0" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49744898" visible="true" weight="0.28431374" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.502551" side_tool="true" weight="0.25718608" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.59077156" visible="true" weight="0.022887323" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.40922844" side_tool="true" weight="0.05728314" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.0" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/FormUser/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Controller/CommandeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#56#102#0#PHP" expanded="true" />
+            <element signature="e#775#810#1#PHP" expanded="true" />
+            <element signature="e#854#915#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Menu/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Controller/PlatController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="2" />
+          <folding>
+            <element signature="e#53#92#0#PHP" expanded="true" />
+            <element signature="e#1172#1200#1#PHP" expanded="true" />
+            <element signature="e#1244#1289#0#PHP" expanded="true" />
+            <element signature="e#2234#2286#0#PHP" expanded="true" />
+            <element signature="e#2647#2700#0#PHP" expanded="true" />
+            <element signature="e#3104#3154#0#PHP" expanded="true" />
+            <element signature="e#3547#3597#0#PHP" expanded="true" />
+            <element signature="e#4616#4669#0#PHP" expanded="true" />
+            <element signature="e#5527#5555#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Panier/choix.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="67" />
+          <folding>
+            <element signature="e#12#45#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/CommandeBundle/Resources/views/Panier/panier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="7" selection-start-column="20" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#12#45#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Menu/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="true" />
+            <element signature="e#732#747#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#53#110#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+          <folding>
+            <element signature="e#3084#3119#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-909" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Administration/User/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#40#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/ContactBundle/Resources/views/Apropos/a_propos.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-end-line="2" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Security/admin_home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/ContactBundle/Resources/views/Apropos/a_propos.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/vue4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/uploads/images/0f4d713fb37d0325a4c10743f8ae9db9.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/animate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4325">
+          <caret line="320" column="28" selection-start-line="320" selection-start-column="24" selection-end-line="320" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/custom-fonts.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="6" column="730" selection-start-line="6" selection-start-column="728" selection-end-line="6" selection-end-column="730" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/ContactBundle/Controller/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#54#100#0#PHP" expanded="true" />
+            <element signature="e#1131#1169#0#PHP" expanded="true" />
+            <element signature="e#1336#1369#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/ContactBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#45#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#37#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="true" />
+            <element signature="e#310#344#0#PHP" expanded="true" />
+            <element signature="e#641#677#1#PHP" expanded="true" />
+            <element signature="e#771#806#1#PHP" expanded="true" />
+            <element signature="e#860#922#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/base_menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/ContactBundle/Resources/views/Contact/User/send.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Apropos/a_propos.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1526">
+          <caret line="123" column="83" selection-start-line="123" selection-start-column="71" selection-end-line="123" selection-end-column="83" />
+          <folding>
+            <element signature="e#12#40#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ProfileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="e#3276#3309#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Security/user_home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-end-line="2" />
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/ReservationnBundle/Resources/views/Administration/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="24" column="95" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
+          <folding>
+            <element signature="e#1205#1211#0#HTML" expanded="true" />
+            <element signature="e#1211#1217#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/modifier_compte.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/User/Menu/menu_type.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Controller/MenuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="134" column="30" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+          <folding>
+            <element signature="e#53#92#0#PHP" expanded="true" />
+            <element signature="e#3254#3308#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Plat/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="6" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FoodCorner/MenuuBundle/Resources/views/Administration/Plat/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#12#46#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

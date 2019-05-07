@@ -1,0 +1,40 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block show_commande %}
+    <br>
+    <center><h4>Détails de commande n° {{ commande.id }}</h4><br><br>
+    <center><h4>Client n° {{ commande.user.id }}</h4><br><br>
+    <style>
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+    <div class="card text-white bg-info mb-50" style="max-width: 1000px;">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+            <h3 class="card-title"><br><br>
+            </h3>
+            <p class="card-text"> <h6> Nom: {{ commande.user.nom }} </h6> <br><br>
+            <h6>Prénom {{ commande.user.prenom }} </h6> <br><br>
+            <h6> Adresse : {{ commande.adresse }} </h6><br><br>
+            <h6> Numéro de telephone : {{ commande.user.tel }} </h6><br><br>
+            <h6> Quantité commandé: {{ commande.quantite }} </h6><br><br>
+            <h6> Date: {{ commande.dateCommande|date('Y-m-d H:i:s') }} </h6><br><br>
+            <h6> Total: {{ commande.plat.prix * commande.quantite }} £ </h6>
+            <br><br>
+            <br><br><br>
+            </p>
+        </div>
+    </div>
+    <br>
+    <ul class="record_actions">
+
+        <a class="btn" href="{{ path('commande_index') }}">
+            Retour
+        </a> &nbsp;&nbsp;
+        <a class="btn" href="{{ path('foodcorner_commande_commande_remove', { 'id': commande.id }) }}">
+            Supprimer
+        </a>
+    </ul>
+{% endblock %}

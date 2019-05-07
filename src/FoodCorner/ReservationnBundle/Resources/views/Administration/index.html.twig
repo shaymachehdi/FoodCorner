@@ -1,0 +1,21 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block index_reservation %}
+    <center><h3 class="page page-header"> Liste des réservations
+        </h3><br><br></center>
+    <ul class="list-group">
+        <tbody>
+        <h5>Date de réservation:</h5>
+        {% for reservation in reservations %}
+        <br><br>
+        <li class="list-group-item"><h5> {{ reservation.date|date('Y-m-d H:i:s') }} </h5><br>
+            <a href="{{ path('reservation_show', { 'id': reservation.id }) }}" class="btn">Voir</a>
+            <a href="{{ path('foodcorner_reservationn_reservation_remove', { 'id': reservation.id }) }}" class="btn">Supprimer </a><br><br>
+            {% endfor %}
+        </tbody>
+    </ul>
+    <br>
+{% endblock %}
+
+
+
+

@@ -1,0 +1,14 @@
+contact_homepage:
+    path:     /
+    defaults: { _controller: ContactBundle:Default:index }
+
+contact_contactpage:
+    path:     /contact
+    defaults: { _controller: ContactBundle:Contact:send }
+
+apropos_apropospage:
+    path:     /apropos
+    defaults: { _controller: ContactBundle:Contact:apropos }
+
+
+

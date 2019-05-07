@@ -1,0 +1,33 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block show_user %}
+    <br>
+    <center>
+        <h4>Détail de client n°: {{ user.id }}</h4> <br><br>
+        <center>
+            <table class="table">
+                <br><br>
+                <li class="list-group-item"><h5>Nom d'utilisateur : {{ user.username }}</h5></li>
+                <br><br>
+                <li class="list-group-item"><h5>Nom : {{ user.nom }}</h5></li>
+                <br><br>
+                <li class="list-group-item"><h5>Prénom : {{ user.prenom }} </h5>
+                    <br><br>
+                <li class="list-group-item"><h5>Prénom : {{ user.adresse }} </h5>
+                    <br><br>
+                <li class="list-group-item"><h5>Adresse : {{ user.adresse }} </h5>
+                    <br><br>
+                <li class="list-group-item"><h5>Numéro de telephone : {{ user.tel }} </h5>
+            </table>
+            <br>
+        </center>
+        <ul class="record_actions">
+            <a class="btn" href="{{ path('user_index') }}">
+                Retour
+            </a> &nbsp;&nbsp;
+            <a class="btn" href="{{ path('app_user_remove', { 'id': user.id }) }}">
+                Supprimer
+            </a>
+        </ul>
+    </center>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block new_commande %}
+    <center>
+    {{ form_start(form) }}
+    <div class="form-group">
+    <label for="exampleInputEmail1"></label><br>
+    <p>Entrez votre
+        adresse </p>{{ form_widget(form.adresse, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}<br><br>
+    <p>Date de la commande </p>{{ form_widget(form.dateCommande) }}<br><br>
+
+    {{ form_end(form) }}<br>
+    <ul class="record_actions">
+        <input type="submit" class="btn-success" value="commander">
+    </ul>
+{% endblock %}

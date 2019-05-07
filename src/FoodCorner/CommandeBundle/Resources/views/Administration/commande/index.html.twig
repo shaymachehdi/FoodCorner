@@ -1,0 +1,20 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block index_commande %}
+    <center><h3 class="page page-header"> Liste de commandes</h3><br><br></center>
+    <ul class="list-group">
+        <tbody><center>
+        <h5>Date des commandes:</h5>
+        {% for commande in commandes %}
+        <br>
+        <li class="list-group-item"><h5> De {{ commande.dateCommande|date('Y-m-d H:i:s') }} <br><br><br> </h5><br>
+            <a href="{{ path('commande_show_admin', { 'id': commande.id }) }}" class="btn">Voir</a>
+            <a href="{{ path('foodcorner_commande_commande_remove', { 'id': commande.id }) }}" class="btn">Supprimer </a><br><br>
+        {% endfor %}
+        </center>
+        </tbody>
+    </ul>
+    <br>
+{% endblock %}
+
+
+

@@ -1,0 +1,21 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block edit_offre %}
+   <center> <h3>Modifier l'offre n°: {{ offre.id }}</h3></center><br> <br>
+    {{ form_start(edit_form) }}
+    <div class="form-group">
+    <label for="exampleInputEmail1">Description</label><br>
+    {{ form_widget(edit_form.description) }}<br>
+    <label for="exampleInputEmail1">Plat</label>
+    {{ form_widget(edit_form.plat, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}<br>
+    <label for="exampleInputEmail1">Date debut </label><br>
+    {{ form_widget(edit_form.datedeb) }}
+    <label for="exampleInputEmail1">Date Fin</label>
+    {{ form_widget(edit_form.datefin) }}<br>
+    <div class="form-group">
+        <ul class="record_actions">
+            <input type="submit" class="btn" value="Modifier"/> &nbsp;&nbsp;&nbsp;
+            <a class="btn" href="{{ path('offre_index') }}">
+                Retour
+            </a>
+        </ul></div>
+{% endblock %}

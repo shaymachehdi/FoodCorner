@@ -1,0 +1,19 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block index_client %}
+    <h3 class="page page-header"> Liste des clients
+    </h3>
+    <ul class="list-group">
+        <tbody>
+        {% for entity in users %}
+            <br><br><li class="list-group-item"><h5></h5><h5>Username :  {{ entity.username}}</h5></li>
+            <a href="{{ path('user_show', { 'id': entity.id }) }}" class="btn">Voir</a>
+            <a href="{{ path('app_user_remove', { 'id': entity.id }) }}" class="btn">Supprimer </a>
+        {% endfor %}
+        </tbody>
+    </ul>
+    <br>
+{% endblock %}
+
+
+
+

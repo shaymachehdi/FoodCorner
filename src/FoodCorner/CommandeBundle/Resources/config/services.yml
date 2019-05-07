@@ -1,0 +1,4 @@
+services:
+#    food_corner_commande.example:
+#        class: FoodCorner\CommandeBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

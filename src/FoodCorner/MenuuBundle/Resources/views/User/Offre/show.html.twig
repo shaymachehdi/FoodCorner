@@ -1,0 +1,33 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block show_offre %}
+<br>
+<center><h4></h4><br><br>
+
+    <style>
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+    <div class="card text-white bg-info mb-50" style="max-width: 1000px;">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+            <h3 class="card-title"><br><br>
+            </h3>
+            <p class="card-text"><h6>Desecription:</h6>{{ offre.description }}<br><br>
+            <h6>Plat de l'offre: </h6>{{ offre.plat.name }} <br><br>
+            <h6>Date de debut de l'offre:</h6> {{ offre.datedeb|date('Y-m-d H:i:s') }} <br><br>
+            <h6> Date de fin de l'offre: </h6>{{ offre.datefin|date('Y-m-d H:i:s') }}<br><br><br><br>
+            </p>
+        </div>
+    </div>
+    <br>
+    <ul class="record_actions">
+
+        <a class="btn-block" href="{{ path('offre_index_user') }}">
+            Retour
+        </a> &nbsp;&nbsp;
+
+    </ul>
+    {% endblock %}

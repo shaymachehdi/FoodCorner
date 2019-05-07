@@ -1,0 +1,22 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block index_offre %}
+    <center><h3 class="page page-header"> Liste d'offres &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ path('offre_new') }}" class="btn btn-light">Ajouter un offre</a>
+        </h3><br><br></center>
+    <ul class="list-group">
+        <tbody>
+        <h5>Date des offres:</h5>
+        {% for offre in offres %}
+        <br><br>
+        <li class="list-group-item"><h5> De {{ offre.datedeb|date('Y-m-d H:i:s') }} <br><br><br> à    {{ offre.datefin|date('Y-m-d H:i:s') }} </h5><br>
+            <a href="{{ path('offre_show', { 'id': offre.id }) }}" class="btn">Voir</a>
+            <a href="{{ path('offre_edit', { 'id': offre.id }) }}" class="btn">Modifier </a>
+            <a href="{{ path('foodcorner_menuu_offre_remove', { 'id': offre.id }) }}" class="btn">Supprimer </a><br><br>
+            {% endfor %}
+        </tbody>
+    </ul>
+    <br>
+{% endblock %}
+
+
+
+

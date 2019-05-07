@@ -1,0 +1,146 @@
+{% extends ':default:base_menu.html.twig' %}
+{% block apropos %}
+<section id="inner-headline">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="pageTitle">A propos</h2>
+        </div>
+    </div>
+</div>
+</section>
+<section id="content">
+            <center><div class="row">
+                <div class="col-md-12">
+                    <p class="about-logo">
+                        <h3>Nous sommes  <span class="color">à votre service</span></h3>
+                    <p>Restaurant FoodCorner est un lieu de rêve pour dîner à Les Escoumins. 3 rue de Castiglione 75001
+                        Paris France, le long du fleuve, le personnel du Restaurant le FoodCorner est heureux de vous accueillir dans son établissement.</p>
+                    <p>Restaurant familial comportant un menu à la carte des plus élaboré (spécialité fruits de mer) et une table d'hôte de jour, de soir et un menu du jour saura satisfaire à tous les goûts et tous les budgets. </p>
+                    <p>Offrez-vous un moment de détente en famille ou entre amis devant un bon repas, avec vue superbe sur le fleuve et ses baleines.</p>
+                </div>
+            </div>
+
+            <hr>
+            <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Heading and para -->
+                    <div class="block-heading-two">
+                        <h3><span>Pourquoi choisissez-nous?</span></h3>
+                    </div>
+                    <p>Un personnel qualifié : un maître d’hôtel qui orchestre sa brigade de salle avec brio, un service soigné et attentionné qui sait se faire discret tout en étant très attentif
+                    <br/><br/>Des mets de qualité : une carte qui propose des plats variés, des produits de saison, et pourquoi pas un Chef étoilé<br/><br/>Une carte des vins riche, s’adaptant à tous les budgets (optez pour le Champagne si vous signez le contrat à la fin du repas d’affaires !)
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="block-heading-two">
+                        <h3><span>Nos chefs</span></h3>
+                    </div>
+                    <!-- Accordion starts -->
+                    <div class="panel-group" id="accordion-alt3">
+                        <!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
+                        <div class="panel">
+                            <!-- Panel heading -->
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
+                                        <i class="fa fa-angle-right"></i> Chef de qualité
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne-alt3" class="panel-collapse collapse">
+                                <!-- Panel body -->
+                                <div class="panel-body">
+                                    Créativité, Engagement envers la qualité, Accepter la critique , Compétences en leadership
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
+                                        <i class="fa fa-angle-right"></i> Diversifité des coutumes
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo-alt3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Nos chefs essayent le maximum de diverssifiè le maximum possible nos menu affin de vous satisfaire
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion ends -->
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <h3>Serveurs</h3>
+                    <ul class="list2">
+                        <li><a href="#">Travailler efficacement</a></li>
+                        <li><a href="#">Le bon service</a></li>
+                        <li><a href="#">La gentillesse</a></li>
+                        <li><a href="#">le bon acceuil</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            </center>
+
+            <br>
+            <!-- Our Team starts -->
+
+            <!-- Heading -->
+
+            <!-- Our team starts -->
+
+            <div class="team-six">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <!-- Team Member -->
+                        <div class="team-member">
+                            <!-- Image -->
+                            <img class="img-responsive" src="{{ asset('img/vue1.jpg') }}" alt="">
+                            <!-- Name -->
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!-- Team Member -->
+                        <div class="team-member">
+                            <!-- Image -->
+                            <img class="img-responsive" src="{{ asset('img/vue2.jpg') }}" alt="">
+                            <!-- Name -->
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!-- Team Member -->
+                        <div class="team-member">
+                            <!-- Image -->
+                            <img class="img-responsive" src="{{ asset('img/vue3.jpg') }}" alt="">
+                            <!-- Name -->
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!-- Team Member -->
+                        <div class="team-member">
+                            <!-- Image -->
+                            <img class="img-responsive" src="{{ asset('img/vue4.jpg') }}" alt="">
+                            <!-- Name -->
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+
+            <!-- Our team ends -->
+
+
+        </div>
+
+    </div>
+</section>
+{% endblock %}

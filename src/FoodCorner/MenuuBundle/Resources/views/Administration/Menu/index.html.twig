@@ -1,0 +1,24 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block index %}
+        <h3 class="page page-header"> Liste des menus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ path('menu_new') }}" class="btn btn-light">Ajouter un nouveau menu</a>
+        </h3>
+    <h4 class="page page-header"> Catégorie </h4>
+
+    <ul class="list-group">
+            <tbody>
+            {% for entity in menus %}
+                <br><br><li class="list-group-item">{{ entity.type }}</li>
+        <a href="{{ path('menu_edit', { 'id': entity.id }) }}" class="btn">Modifier </a>
+                <a href="{{ path('foodcorner_menuu_menu_remove', { 'id': entity.id }) }}" class="btn">Supprimer </a>
+                <a href="{{ path('plat_show_admin' , { 'id': entity.id }) }}" class="btn">Plat </a>
+
+            {% endfor %}
+        </tbody>
+    </ul>
+    <br>
+{% endblock %}
+
+
+
+
+

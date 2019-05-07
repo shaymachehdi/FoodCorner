@@ -1,0 +1,20 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block index_offre %}
+    <center><h3 class="page page-header"> Liste d'offres
+        </h3><br><br></center>
+    <ul class="list-group">
+        <tbody>
+        <h5>Date des offres:</h5>
+        {% for offre in offres %}
+        <br><br>
+        <li class="list-group-item"><h5> De {{ offre.datedeb|date('Y-m-d H:i:s') }} <br><br><br> à    {{ offre.datefin|date('Y-m-d H:i:s') }} </h5><br>
+            <a href="{{ path('offre_show_user', { 'id': offre.id }) }}" class="btn-block">Voir</a>
+            {% endfor %}
+        </tbody>
+    </ul>
+    <br>
+{% endblock %}
+
+
+
+

@@ -1,0 +1,45 @@
+{% extends 'layout.html.twig' %}
+{% block user %}
+<div class="well">
+    <ul class="nav nav-list">
+        <li>
+            <a href="{{ path('fos_user_profile_show') }}">Mes informations</a>
+        </li>
+        <li>
+            <a href="{{ path('fos_user_profile_edit') }}">Editer mes informations</a>
+        </li>
+        <li>
+            <a href="{{ path('fos_user_change_password') }}">Changer mon mot de passe</a>
+        </li>
+        <li>
+            <a href="#">Commander</a>
+        </li>
+        <li>
+            <a href="#">Réserver</a>
+        </li>
+
+    </ul>
+</div>
+{% endblock %}
+{% block admin_editer_inf %}
+    <div class="well">
+        <ul class="nav nav-list">
+            <li>
+                <a href="{{ path('fos_user_profile_show') }}">Mes informations</a>
+            </li>
+            <li>
+                <a href="{{ path('fos_user_profile_edit') }}">Editer mes informations</a>
+            </li>
+            <li>
+                <a href="{{ path('fos_user_change_password') }}">Changer mon mot de passe</a>
+            </li>
+            <li>
+                <a href="#">Commander</a>
+            </li>
+            <li>
+                <a href="#">Réserver</a>
+            </li>
+
+        </ul>
+    </div>
+{% endblock %}

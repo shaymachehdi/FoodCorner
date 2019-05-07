@@ -1,0 +1,33 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block show_commande_user %}
+<br>
+<center><h4>Votre commande a été bien envoyé</h4><br><br>
+
+    <style>
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+    <div class="card text-white bg-info mb-50" style="max-width: 1000px;">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+            <h3 class="card-title"><br><br>
+            </h3>
+            <p class="card-text"> <h6>Votre nom: {{ commande.user.nom }} </h6> <br><br>
+            <h6>Votre prénom: {{ commande.user.prenom }}  </h6>
+            <br><br>
+            <h6> Votre numéro de telephone : {{ commande.user.tel }} </h6><br><br>
+            <h6> Quantité commandé: {{ commande.quantite }} </h6><br><br>
+            <h6> Date de votre commande: {{ commande.dateCommande|date('Y-m-d H:i:s') }} </h6><br><br>
+            <h6> Total de la commande : {{ commande.plat.prix * commande.quantite }} £ </h6>
+            <br><br>
+            <br><br><br>
+
+            </p>
+        </div>
+    </div>
+    <br>
+
+    {% endblock %}

@@ -1,0 +1,22 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% extends '@App/Security/user_home.html.twig' %}
+{% block user_home %}
+    <div class="row">
+    <div class="span9">
+        <h1>Mes informations :</h1><br><br>
+        <div id="collapseOne" class="accordion-body collapse in">
+            <div class="accordion-inner">
+                <div class="span4">
+                    <h5>{{ 'profile.show.username'|trans }}: {{ user.username }}</h5><br>
+                    <h5>{{ 'profile.show.email'|trans }}: {{ user.email }}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fos_user_user_show">
+</div>
+{% endblock %}
+
+
+

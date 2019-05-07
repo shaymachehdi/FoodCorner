@@ -1,0 +1,14 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block new %}
+<h1>Creation d'un menu</h1>
+    {{ form_start(form) }}
+        <div class="form-group">
+        <label for="exampleInputEmail1">Entrer le nouveau menu</label><br>
+    {{ form_start(form) }}
+    {{ form_widget(form.type, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}
+    {{ form_end(form) }}<br>
+<ul class="record_actions">
+    <input type="submit" class="btn" value="Ajouter">
+    <a class="btn" href="{{ path('menu_index') }}">Retour</a>
+</ul>
+{% endblock %}

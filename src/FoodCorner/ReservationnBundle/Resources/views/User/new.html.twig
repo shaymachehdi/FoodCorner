@@ -1,0 +1,14 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block new_reservation %}<center>
+    <h1> <span> Formulaire de réservation</span></h1></center><br><br>
+    {{ form_start(form) }}
+    <div class="form-group">
+    <label for="exampleInputEmail1"></label><br>
+    <p>Date de réservation</p>{{ form_widget(form.date) }}<br><br>
+    <p>Type</p>{{ form_widget(form.type) }}<br><br>
+    <p>Nombre de personne</p>{{ form_widget(form.nbrepers)  }}<br>
+    {{ form_end(form) }}<br>
+    <ul class="record_actions">
+        <input type="submit" class="btn-success" value="Réserver">
+    </ul>
+{% endblock %}

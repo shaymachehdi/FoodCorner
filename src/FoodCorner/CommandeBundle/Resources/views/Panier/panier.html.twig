@@ -1,0 +1,26 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block panier %}
+    {% for plat in plats %}
+        <section id="content">
+            <center>
+                <div class="container content">
+                    <!-- Service Blcoks -->
+                    <td class="col-md-4 md-margin-bottom-40">
+
+                        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="300" HEIGHT="300">
+                            <TR>
+                                <TD><img class="img-responsive" src="{{ asset ('uploads/images/'~ plat.image) }}"
+                                         style="float:left" alt=""></TD>
+                            </TR>
+                        </TABLE>
+                    <td><h6>{{ plat.name }}</h6></td>
+                    <td><h6>{{ plat.prix }} £</h6><br></td>
+                    <td><a href="{{ path('plat_show', { 'id': plat.id }) }}" class="btn-primary">Plus d'information</a>
+                    </td>
+                    <td><a href="{{ path('commande_new', { 'id': plat.id }) }}" class="btn-success">Commander</a>
+                    </td>
+                </div>
+            </center>
+        </section>
+    {% endfor %}
+{% endblock %}

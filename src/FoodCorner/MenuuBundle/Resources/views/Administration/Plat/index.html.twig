@@ -1,0 +1,31 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block index_plat %}
+        <h3 class="page page-header"> Liste des plats &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ path('plat_new') }}" class="btn btn-light">Ajouter un nouveau plat</a>
+        </h3>
+    <ul class="list-group">
+            <tbody>
+            {% for entity in plats %}
+                <div class="text-center">
+                    <td class="col-md-4 md-margin-bottom-40">
+                        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="200" HEIGHT="200">
+                            <TR>
+                                <TD><img class="img-responsive" src="{{ asset ('uploads/images/'~ entity.image) }}"
+                                         style="float:left" alt=""></TD>
+                            </TR>
+                        </TABLE>
+                </div>
+                <br><br><li class="list-group-item"><h5>Nom :  {{ entity.name}}</h5></li>
+                <br><br><li class="list-group-item"><h5>Type :  {{ entity.type}}</h5></li>
+            </li><br><br>
+                    <a href="{{ path('plat_show', { 'id': entity.id }) }}" class="btn">Voir</a>
+                    <a href="{{ path('plat_edit', { 'id': entity.id }) }}" class="btn">Modifier </a>
+                    <a href="{{ path('foodcorner_menuu_plat_remove', { 'id': entity.id }) }}" class="btn">Supprimer </a><br><br><br>
+            {% endfor %}
+            </tbody>
+    </ul>
+    <br>
+{% endblock %}
+
+
+
+

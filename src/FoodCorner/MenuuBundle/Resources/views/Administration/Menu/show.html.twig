@@ -1,0 +1,35 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block a %}
+<h1>Menu</h1>
+
+    <table class="record_properties">
+        <tbody>
+        <tr>
+            <th>Id</th>
+            <td>{{ menu.id }}</td>
+        </tr>
+        <tr>
+            <th>Type</th>
+            <td>{{ menu.type }}</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <ul class="record_actions">
+        <li>
+            <a href="{{ path('menu_index') }}">
+                Retourne à la liste
+            </a>
+        </li>
+        <li>
+            <a href="{{ path('menu_edit', { 'id': menu.id }) }}">
+                Edit
+            </a>
+        </li>
+        <li>
+            <a href="{{ path('menu_supprime', { 'id': menu.id }) }}">
+                delete
+            </a>
+        </li>
+    </ul>
+{% endblock %}

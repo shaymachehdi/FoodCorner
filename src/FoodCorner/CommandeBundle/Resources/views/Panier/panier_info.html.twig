@@ -1,0 +1,39 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block show_plat_panier %}
+    <br>
+    <center><h4>{{ plat.name }}</h4><br><br>
+
+    <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="300" HEIGHT="300"><TR>
+            <TD><img class="img-responsive" src="{{ asset ('uploads/images/'~ plat.image)  }}" style="float:left" alt=""></TD>
+        </TR>
+    </TABLE>
+
+    <style>
+        div {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+    <div class="card text-white bg-info mb-10" style="width: 700px">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+            <h3 class="card-title"><br>
+            </h3><center>
+
+            <p class="card-text"><h6>type: {{ plat.type }}</h6><br><br>
+                <h6>Description: <br> <br> {{ plat.description }}  </h6> <br><br>
+                <h6>prix: {{ plat.prix }}  £</h6> <br><br>
+            </center><br><br><br>
+        </div>
+
+    </div>
+    <br>
+    <ul class="record_actions">
+
+        <a class="btn-success" href="{{ path('commande_new', { 'id': plat.id }) }}">
+            Commander
+        </a> &nbsp;&nbsp;
+
+    </ul>
+{% endblock %}

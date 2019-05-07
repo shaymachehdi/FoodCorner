@@ -1,0 +1,14 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block panier_menu %}<br><br><br><br><center>
+<div class="well"><br>
+    {% for menu in menus  %}
+    <ul class="nav nav-list">
+        <li>
+            <a href="{{ path('plat_show_s' , { 'id': menu.id }) }}">{{ menu.type }}</a>
+        </li>
+    </ul>
+    {% endfor %}
+</div></center>
+{% endblock %}
+
+

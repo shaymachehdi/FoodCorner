@@ -1,0 +1,47 @@
+food_corner_commande_commande:
+    resource: "@FoodCornerCommandeBundle/Controller/CommandeController.php"
+    type:     annotation
+
+food_corner_menuu_offre:
+    resource: "@FoodCornerMenuuBundle/Controller/OffreController.php"
+    type:     annotation
+
+food_corner_menuu_plat:
+    resource: "@FoodCornerMenuuBundle/Controller/PlatController.php"
+    type:     annotation
+
+app_user:
+    resource: "@AppBundle/Controller/UserController.php"
+    type:     annotation
+
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+food_corner_reservationn:
+    resource: "@FoodCornerReservationnBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+food_corner_menuu:
+    resource: "@FoodCornerMenuuBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+contact:
+    resource: "@ContactBundle/Resources/config/routing.yml"
+    prefix:   /
+
+food_corner_menuu_menu:
+    resource: "@FoodCornerMenuuBundle/Controller/MenuController.php"
+    type:     annotation
+
+food_corner_commande:
+    resource: "@FoodCornerCommandeBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

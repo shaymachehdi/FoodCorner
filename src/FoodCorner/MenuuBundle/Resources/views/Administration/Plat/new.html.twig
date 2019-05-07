@@ -1,0 +1,19 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block new_plat %}
+    <h1>Creation d'un plat</h1>
+    {{ form_start(form) }}
+    <div class="form-group">
+    <label for="exampleInputEmail1">Entrer le nouveau plat</label><br>
+    {{ form_row(form.image) }}
+    <p>Name</p>{{ form_widget(form.name, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}
+    <p>Description</p>{{ form_widget(form.description, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}
+    <p>Type</p>{{ form_widget(form.type ) }}
+    <p>Prix</p>{{ form_widget(form.prix, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}
+    <p>Qunatité</p>{{ form_widget(form.qte, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}
+    <p>Disponibilité</p>{{ form_widget(form.disponible, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}
+    {{ form_end(form) }}<br>
+    <ul class="record_actions">
+        <input type="submit" class="btn" value="Ajouter">
+        <a class="btn" href="{{ path('plat_index') }}">Retour</a>
+    </ul>
+{% endblock %}

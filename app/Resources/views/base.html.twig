@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Food Corner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="http://webthemez.com" />
+    <!-- css -->
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/jcarousel.css" rel="stylesheet') }}" />
+    <link href="{{ asset('css/flexslider.css') }}" rel="stylesheet" />
+    <link href="{{ asset('js/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<div>
+<div id="wrapper" class="home-page">
+    <!-- start header -->
+    <header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-Bistro=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{ path('homepage') }}"><img src="{{ asset('img/logo.png') }}" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="{{ path('homepage') }}">Acceuil</a></li>
+                        <li><a href="{{ path('apropos_apropospage') }}">A Propos</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                {% for menu in menus  %}
+                                <li><a href="{{ path('plat_show_user_plat' , { 'id': menu.id }) }}">{{ menu.type }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li><a href="{{ path('contact_contactpage') }}">Contact</a></li>
+                        <li><a href="{{ path('fos_user_security_login') }}">Login</a></li>
+                        <li><a href="{{ path('fos_user_registration_register') }}">Inscription</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <section id="banner">{% block menu %} {% endblock %}
+
+        <!-- Slider -->
+        <div id="main-slider" class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="{{ asset('img/slides/1.jpg') }}" alt="" />
+                    <div class="flex-caption container">
+                        <h3>Vous êtes fatigué? occupé?</h3>
+                        <p>Ne vous inquiétez! Commandez votre plat en ligne</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="{{ asset('img/slides/2.jpg') }}" alt="" />
+                    <div class="flex-caption container">
+                        <h3>Vous etes fatigué? occupé?</h3>
+                        <p>Ne vous inquiétez! Commandez votre plat en ligne</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- end slider -->
+
+    </section>
+    {% block admin %}{% endblock %}
+    <section class="txt-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="aligncenter"><h1 class="aligncenter">Nos Services</h1>Découvrez notre rubrique "les menus" avec des exemples de repas pour midi, le soir et le dimanche midi. Pensez à réserver...</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services">
+
+
+        <section id="services">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="features">
+                        <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 0ms;">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <img src="{{ asset('img/1.png') }}" alt="" />
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Salade</h4>
+                                    <p>Râpé léger au déjeuner ou salade composée au dîner ? Pas de repos pour la salade tradi, </p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 100ms;">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <img src="{{ asset('img/2.png') }}" alt="" />
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Petit déjeuner</h4>
+                                    <p>La faim vous taraude lorsque le milieu de journée approche, Rejoignez nous.</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 200ms;">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <img src="{{ asset('img/3.png') }}" alt="" />
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Déjeuner</h4>
+                                    <p>Le repas du midi revêt une importance toute aussi cruciale que le petit déjeuner dans le menu du jour. </p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 300ms;">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <img src="{{ asset('img/4.png') }}" alt="" />
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Diner</h4>
+                                    <p>Spaghtiii, pizza, lasagnes… Autant de plats principaux certes délicieux </p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 400ms;">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <img src="{{ asset('img/5.png') }}" alt="" />
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Boissons</h4>
+                                    <p>Vous trouvez des divers boissons dans notre restaurant</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="500ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 500ms;">
+                            <div class="media service-box">
+                                <div class="pull-left">
+                                    <img src="{{ asset('img/7.png') }}" alt="" />
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Galas</h4>
+                                    <p>Nous organisons quotidiennement des galas. Nous vous offrons un super ambiance</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id='events'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="aligncenter"><h2 class="aligncenter">Nos évènements</h2>Nous avons l'honneur de vous invitez chez nous pour bien profitez de nos galas ! Soyez nombreux</div>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="post3">
+                        <img src="{{ asset('img/e1.png') }}" alt="">
+                        <a href="#">
+                            <time datetime="2015-03-01">
+                                <span class="year">2015</span>
+                                <span class="month">Fèvrier</span>
+                            </time>
+                            <p>Pizza Party </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post3">
+                        <img src="{{ asset('img/e2.png') }}" alt="">
+                        <a href="#">
+                            <time datetime="2015-03-01">
+                                <span class="year">2015</span>
+                                <span class="month">Mars</span>
+                            </time>
+                            <p>Rock Party</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post3">
+                        <img src="{{ asset('img/e3.png') }}" alt="">
+                        <a href="#">
+                            <time datetime="2015-03-01">
+                                <span class="year">2015</span>
+                                <span class="month">Avril</span>
+                            </time>
+                            <p>Dance Party</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Nos contacts</h5>
+                        <address>
+                            <strong>Food Corner</strong><br>
+                            3 rue de Castiglione 75001<br>
+                            Paris France
+                        </address>
+                        <p>
+                            <i class="icon-phone"></i>  02 40 91 97 49 <br>
+                            <i class="icon-envelope-alt"></i> FoodCorner@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Quick Links</h5>
+                        <ul class="link-list">
+                            <li><a href="#">les dérniers évènements</a></li>
+                            <li><a href="#">Contacter-nous</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Les derniérs posts</h5>
+                        <ul class="link-list">
+                            <li><a href="#">C'un un bon endroit pour manger en calme</a></li>
+                            <li><a href="#">Restaurant de famille </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="widget">
+                        <h5 class="widgetheading">Dernières nouvelles
+                        </h5>
+                        <ul class="link-list">
+                            <li><a href="#">Offre pour dèjeuner</a></li>
+                            <li><a href="#">Dinner Party</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="copyright">
+                            <p>
+                                <span>&copy; Food corner 2015 All right reserved. By </span><a href="http://webthemez.com" Bistro="_blank">Food Corner</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="social-network">
+                            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{ asset('js/jquery.js') }}"></script>
+<script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/jquery.fancybox.pack.js') }}"></script>
+<script src="{{ asset('js/jquery.fancybox-media.js') }}"></script>
+<script src="{{ asset('js/portfolio/jquery.quicksand.js') }}"></script>
+<script src="{{ asset('js/portfolio/setting.js') }}"></script>
+<script src="{{ asset('js/jquery.flexslider.js') }}"></script>
+<script src="{{ asset('js/animate.js') }}"></script>
+<script src="{{ asset('js/custom.js') }}"></script>
+<script src="{{ asset('js/owl-carousel/owl.carousel.js') }}"></script>
+</body>
+</div>
+</html>
+

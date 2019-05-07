@@ -1,0 +1,16 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block new_offre %}
+    <center>
+        <h1><span> Ajouter une offre</span></h1></center><br><br>
+    {{ form_start(form) }}
+    <div class="form-group">
+    <label for="exampleInputEmail1"></label><br>
+    <p>Description</p>{{ form_widget(form.description) }}<br><br>
+    <p>Plat</p>{{ form_widget(form.plat,{ 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}<br><br>
+    <p>Date début </p>{{ form_widget(form.datedeb) }}<br><br>
+    <p>Date de fin</p>{{ form_widget(form.datefin) }}<br><br>
+    {{ form_end(form) }}<br>
+    <ul class="record_actions">
+        <input type="submit" class="btn" value="Ajouter">
+    </ul>
+{% endblock %}

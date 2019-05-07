@@ -1,0 +1,21 @@
+{% extends '@App/Security/user_home.html.twig' %}
+{% block choix_plat %}
+    <center><h3 class="page page-header"> Liste des plats </h3>
+        <ul class="list-group">
+            <tbody>
+            {% for entity in plats %}
+                <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="300" HEIGHT="300"><TR>
+                        <TD><img class="img-responsive" src="{{ asset ('uploads/images/'~ entity.image)  }}" style="float:left" alt=""></TD>
+                    </TR>
+                </TABLE>
+               <h5>Plat : {{ entity.name }}</h5>
+                <h5>Prix : {{ entity.prix }} £</h5>
+                    <br>
+                <a href="{{ path('plat_show_panier_user', { 'id': entity.id }) }}" class="btn-primary">Plus d'informations</a>
+                <a href="{{ path('commande_new', { 'id': entity.id }) }}" class="btn-success">Commander </a><br><br>
+            {% endfor %}
+            </tbody>
+        </ul>
+        <br>
+    </center>
+{% endblock %}

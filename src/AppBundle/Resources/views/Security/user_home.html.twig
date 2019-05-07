@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Food Corner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="http://webthemez.com"/>
+    <!-- css -->
+
+    <link type="text/css" rel="stylesheet" href="{{ asset('assets/css/bootstrap-datetimepicker-standalone.min.css') }}">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('css/fancybox/jquery.fancybox.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/jcarousel.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('css/flexslider.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+    <!-- start header -->
+    <header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-Bistro=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="{{ asset('img/logo.png') }}" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="{{ path('reservation_new') }}">Réserver</a></li>
+                        <li><a href="{{ path('panier_index_menu') }}">Commander</a></li>
+                        <li><a href="{{ path('offre_index_user') }}">Offres</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Profile<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ path('fos_user_profile_show') }}">A Propos</a></li>
+                                <li><a href="{{ path('fos_user_profile_edit') }}">Modifier mes infos</a></li>
+                                <li><a href="{{ path('fos_user_change_password') }}">Modifier mot de passe</a></li>
+                                <li><a href="{{ path('fos_user_security_logout') }}">Deconnexion</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header><!-- end header -->
+    <section id="inner-headline">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="pageTitle">Bienvenu</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="content">
+        {% block user_home %} {% endblock %} {% block new_reservation %} {% endblock %} {% block fos_user_password %} {% endblock %}
+        {% block fos_user_content_prfile %} {% endblock %} {% block fos_user_content_edit %} {% endblock %}
+         {% block index_offre %} {% endblock %}
+        {% block panier_menu %} {% endblock %}{% block panier_index %} {% endblock %} {% block show_reservation_user %} {% endblock %}
+        {% block choix_plat %} {% endblock %}{% block show_plat_panier %} {% endblock %} {% block new_commande %} {% endblock %}
+        {% block show_commande %} {% endblock %} {% block show_commande_user %} {% endblock %} {% block show_offre %} {% endblock %}
+        {% block panier %} {% endblock %}
+
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+        <script src="{{ asset('js/jquery.js') }}"></script>
+        <script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.fancybox.pack.js') }}"></script>
+        <script src="{{ asset('js/jquery.fancybox-media.js') }}"></script>
+        <script src="{{ asset('js/portfolio/jquery.quicksand.js') }}"></script>
+        <script src="{{ asset('js/portfolio/setting.js') }}"></script>
+        <script src="{{ asset('js/jquery.flexslider.js') }}"></script>
+        <script src="{{ asset('js/animate.js') }}"></script>
+        <script src="{{ asset('js/custom.js') }}"></script>
+        <script src="{{ asset('js/owl-carousel/owl.carousel.js') }}"></script>
+</body>
+</html>

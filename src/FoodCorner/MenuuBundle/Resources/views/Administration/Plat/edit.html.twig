@@ -1,0 +1,28 @@
+{% extends '@App/Security/admin_home.html.twig' %}
+{% block edit_plat %}
+    <h1>Modifier plat</h1><br>
+    {{ form_start(edit_form) }}
+    <div class="form-group">
+    <label for="exampleInputEmail1">Image</label>
+    {{ form_row(edit_form.image) }}<br>
+    <label for="exampleInputEmail1">Nom</label><br>
+    {{ form_widget(edit_form.name, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}<br>
+    <label for="exampleInputEmail1">Description</label>
+    {{ form_widget(edit_form.description, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}<br>
+    <label for="exampleInputEmail1">Type</label><br>
+    {{ form_widget(edit_form.type, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}
+    <label for="exampleInputEmail1">Prix</label>
+    {{ form_widget(edit_form.prix, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}<br>
+    <label for="exampleInputEmail1">Quantité</label>
+    {{ form_widget(edit_form.qte, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}<br>
+    <label for="exampleInputEmail1">Disponibilité</label>
+    {{ form_widget(edit_form.disponible, { 'attr': {'class': 'form-control', 'placeholder': ''|trans } }) }}<br>
+    {{ form_end(edit_form) }}<br>
+    <div class="form-group">
+        <ul class="record_actions">
+            <input type="submit" class="btn" value="Modifier"/> &nbsp;&nbsp;&nbsp;
+            <a class="btn" href="{{ path('user_index') }}">
+                Retour
+            </a>
+        </ul></div>
+{% endblock %}
